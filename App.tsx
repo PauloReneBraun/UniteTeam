@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 
-import { theme } from "./src/theme";
+import theme from "./src/theme";
 
 import { Groups } from "./src/screens/Groups";
 
