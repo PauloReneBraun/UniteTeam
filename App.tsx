@@ -10,7 +10,7 @@ import theme from "./src/theme";
 import { Groups } from "./src/screens/Groups";
 
 export default function App() {
-  <ThemeProvider theme={}>
+  <ThemeProvider theme={theme}>
     <Groups />
   </ThemeProvider>;
 }
