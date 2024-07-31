@@ -13,7 +13,9 @@ import { Groups } from "./src/screens/Groups";
 export default function App() {
   const [fontsLoading] = useFonts({ Roboto_400Regular, Roboto_700Bold });
 
-  <ThemeProvider theme={theme}>
-    <Groups />
-  </ThemeProvider>;
+  return (
+    <ThemeProvider theme={theme}>
+      {fontsLoading ? <Groups /> : <ActivityIndicator />}
+    </ThemeProvider>
+  );
 }
