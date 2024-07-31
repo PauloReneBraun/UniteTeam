@@ -1,4 +1,5 @@
 import styled, { ThemeProvider } from "styled-components/native";
+import { useFonts } from "@expo-google-fonts/roboto";
 
 import theme from "./src/theme";
 
