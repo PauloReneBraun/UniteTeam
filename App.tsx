@@ -6,7 +6,7 @@ import {
   Roboto_700Bold,
 } from "@expo-google-fonts/roboto";
 
-import { Loading } from "src/components/Loading";
+import { Loading } from "@components/Loading";
 
 import theme from "./src/theme";
 
@@ -17,7 +17,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      {fontsLoading ? <Groups /> : <ActivityIndicator />}
+      {fontsLoading ? <Groups /> : <Loading />}
     </ThemeProvider>
   );
 }
