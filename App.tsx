@@ -10,6 +10,8 @@ import theme from "./src/theme";
 import { Groups } from "./src/screens/Groups";
 
 export default function App() {
+  useFonts({ Roboto_400Regular, Roboto_700Bold });
+
   <ThemeProvider theme={theme}>
     <Groups />
   </ThemeProvider>;
