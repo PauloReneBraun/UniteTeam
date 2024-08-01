@@ -1,4 +1,4 @@
-import { ActivityIndicator } from "react-native";
+import { StatusBar } from "react-native";
 import styled, { ThemeProvider } from "styled-components/native";
 import {
   useFonts,
