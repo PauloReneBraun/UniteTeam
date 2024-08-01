@@ -17,7 +17,10 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <StatusBar></StatusBar>
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor={theme.COLORS.GRAY_700}
+      />
       {fontsLoading ? <Groups /> : <Loading />}
     </ThemeProvider>
   );
