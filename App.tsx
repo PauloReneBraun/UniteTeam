@@ -17,6 +17,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
+      <StatusBar></StatusBar>
       {fontsLoading ? <Groups /> : <Loading />}
     </ThemeProvider>
   );
